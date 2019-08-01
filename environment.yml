@@ -1,0 +1,18 @@
+name: thejoker
+
+channels:
+  - astropy
+
+dependencies:
+  - python=3
+  - astropy
+  - numpy
+  - matplotlib
+  - scipy
+  - h5py
+  - emcee
+  - cython
+  - pip:
+    - schwimmbad
+    - twobody
+    - git+https://github.com/adrn/thejoker.git
